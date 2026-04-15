@@ -1,0 +1,36 @@
+function Extended_Data_Figure_1_Panel_j
+
+blue = [0, 92, 171] / 256;
+red = [200, 40, 40] / 256;
+tick_font_size = 21;
+Marker_Size = 18;
+
+
+filepath_s_trust = "C:\Users\Lenovo\Desktop\结果TXT\simu_static_trust_delta=0.01.txt";
+filepath_d_trust = "C:\Users\Lenovo\Desktop\结果TXT\simu_dynamic_trust_delta=0.01.txt";
+
+M_s_trust = readmatrix(filepath_s_trust);
+M_d_trust = readmatrix(filepath_d_trust);
+
+x = M_s_trust(1,:);
+ys = M_s_trust(2,:);
+yd = M_d_trust(2,:);
+
+figure;
+plot(x, yd, 's', 'MarkerSize',Marker_Size, 'MarkerFaceColor', blue, 'MarkerEdgeColor', 'none');
+hold on;
+plot(x, ys, 's', 'MarkerSize',Marker_Size, 'MarkerFaceColor', red, 'MarkerEdgeColor', 'none');
+
+
+set(gca,'FontSize',tick_font_size);
+
+set(gcf,'Color','w');
+set(gca,'Color','w');
+
+box on;
+pbaspect([1 1 1]);
+ytickformat('%.2f');
+
+title('$\delta=0.01$', 'FontSize', 21, 'Interpreter','latex');
+xlabel('Core periphery, $N_p$', 'FontSize', 21, 'Interpreter','latex');
+ylabel('Trust, $\bar{p}$', 'FontSize', 21, 'Interpreter','latex');
