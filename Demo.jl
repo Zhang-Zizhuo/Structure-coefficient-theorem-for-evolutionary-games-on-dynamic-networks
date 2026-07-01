@@ -1,3 +1,21 @@
+# This script computes the cooperation frequency on a simple dynamic network using both analytical
+
+# theory and Monte Carlo simulations.
+
+#
+
+# It outputs the theoretical prediction and the corresponding simulation estimate for comparison.
+
+# Close agreement between them supports the accuracy of the theoretical approximation.
+
+#
+
+# Increasing `maxLoop` and `maxIter` improves the accuracy of the simulation estimate, but also
+
+# increases the computational time.
+
+
+
 include("Structure_Coefficients_of_Dynamic_Networks.jl")
 include("Simulation.jl")
 N = 6
