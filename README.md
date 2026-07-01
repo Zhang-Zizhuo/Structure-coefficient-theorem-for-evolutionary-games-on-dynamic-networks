@@ -1,7 +1,20 @@
 # Structure-coefficient theorem for evolutionary games on dynamic networks
 
 # DESCRIPTION
-This project is designed for the production of the paper titled Structure-coefficient theorem for evolutionary games on dynamic networks
+This repository provides reproducible materials for the paper titled
+"Structure-coefficient theorem for evolutionary games on dynamic networks".
+
+It contains the core Julia code for computing structure coefficients of dynamic
+networks, a minimal Julia demo comparing the theoretical prediction with Monte
+Carlo simulations on a simple dynamic network, and MATLAB scripts for reproducing
+the figures in the paper.
+
+The `.txt` files included in the figure folders are precomputed numerical results
+used by the MATLAB plotting scripts. The large-scale numerical procedures used to
+generate all of these `.txt` files are not included, because they are substantially
+more extensive than the minimal demonstration. Each MATLAB script is named after
+the corresponding figure panel; running a script reproduces that panel using the
+associated `.txt` files in the same folder.
 
 ## Implementation Details
 - Data generation codes were implemented in **Julia 1.209.2**
