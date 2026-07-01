@@ -14,8 +14,6 @@
 
 # increases the computational time.
 
-
-
 include("Structure_Coefficients_of_Dynamic_Networks.jl")
 include("Simulation.jl")
 N = 6
@@ -69,12 +67,6 @@ a = (2*b - 2*c) / 4   #  \bar{a}
 fc = 1/2 + delta * ( Lambda[1]*(a_11 - a_ss) + Lambda[2]*(a_1s - a_s1) + Lambda[3]*(a_1s - a) )
 
 println("Theoretical cooperation frequency (c=$(c), b=$(b), delta=$(delta)):  fc = $(fc)")
-
-# maxLoop = 10
-# maxIter = 10^8
-
-# frequency_vector = game_on_dynamic_network(w, u, q, delta, maxLoop, maxIter, A)
-# println("Frequency of cooperation in a Monte Carlo simulation: ", frequency_vector[1])
 
 maxLoop = 10
 maxIter = 10^8
