@@ -16,9 +16,9 @@ This project is designed for the production of the paper titled Structure-coeffi
 
 
 ## Visualization Resources
-- `Figure2/` - Data and code for Figure 2 
-- `Figure3/` - Data and code for Figure 3
-- `Figure5/` - Data and code for Figure 5
+- `Figure 2/` - Data and code for Figure 2 
+- `Figure 3/` - Data and code for Figure 3
+- `Figure 5/` - Data and code for Figure 5
 - `Extended Data Figure 1/` - Data and code for Extended Data Figure 1
 - `Extended Data Figure 2/` - Data and code for Extended Data Figure 2
 - `Extended Data Figure 3/` - Data and code for Extended Data Figure 3
