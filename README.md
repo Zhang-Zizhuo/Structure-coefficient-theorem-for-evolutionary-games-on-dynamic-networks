@@ -12,7 +12,7 @@ This project is designed for the production of the paper titled Structure-coeffi
 ## Core Analysis Scripts
 - `Structure_Coefficients_of_Dynamic_Networks.jl` - Computes structure-coefficients for given dynamic networks
 - `Simulation.jl` - Monte Carlo simulation of strategy frequencies in given dynamic networks
-- `demo.jl` - An example of obtaining strategy frequencies on a simple dynamic network using both analytical calculations and Monte Carlo simulations
+- `Demo.jl` - An example of obtaining strategy frequencies on a simple dynamic network using both analytical calculations and Monte Carlo simulations
 
 
 ## Visualization Resources
