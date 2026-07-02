@@ -7,8 +7,8 @@ Marker_Size = 18;
 
 
 
-filepath_s_dictator = "Data\simu_static_Dictator_delta=0.01.txt";
-filepath_d_dictator = "Data\simu_dynamic_Dictator_delta=0.01.txt";
+filepath_s_dictator = "Data\simu_static_dictator_delta=0.01.txt";
+filepath_d_dictator = "Data\simu_dynamic_dictator_delta=0.01.txt";
 
 M_s_dictator = readmatrix(filepath_s_dictator);
 M_d_dictator = readmatrix(filepath_d_dictator);
