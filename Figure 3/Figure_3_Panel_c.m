@@ -38,11 +38,11 @@ set(gca, 'FontSize', tick_font_size);
 
 
 
-xlabel('Mutation rate, $\mu$', 'Interpreter', 'latex', 'FontSize', label_font_size);  % x 轴标签
-ylabel('${\it (b/c)^*}$', 'Interpreter', 'latex', 'FontSize', label_font_size);  % y 轴标签
+xlabel('Mutation rate, $\mu$', 'Interpreter', 'latex', 'FontSize', label_font_size);  
+ylabel('${\it (b/c)^*}$', 'Interpreter', 'latex', 'FontSize', label_font_size);  
 
-set(gcf, 'Color', 'w');  % 图形背景
-set(gca, 'Color', 'w');  % 坐标轴背景
+set(gcf, 'Color', 'w');  
+set(gca, 'Color', 'w');  
 
 pbaspect([1 1 1]);
 
