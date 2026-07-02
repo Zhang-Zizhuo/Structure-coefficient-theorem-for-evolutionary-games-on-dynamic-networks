@@ -1,3 +1,17 @@
+# Functions for computing structure coefficients of dynamic networks.
+#
+# This file is intended to be included by other Julia scripts, such as `Demo.jl`.
+# The main user-facing function is `Structure_Coefficients(w, u, q)`, which returns
+# the three structure coefficients [Lambda_1, Lambda_2, Lambda_3] for a given
+# dynamic network.
+#
+# Inputs to the main function:
+# - w: adjacency matrices of the static network states, stored as an N x N x L array.
+# - u: mutation rate.
+# - q: transition probability matrix of network states, stored as an L x L matrix.
+#
+# The remaining functions in this file are helper functions used internally by
+# `Structure_Coefficients`.
 
 using SparseArrays, LinearAlgebra, IterativeSolvers
 
