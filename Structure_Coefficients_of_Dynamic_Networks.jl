@@ -141,7 +141,7 @@ end
 
 
 
-# IBS probabilities for node pairs (for DB proecss) (see Eq.10 in the main text, or Eq.SI.46 in the main text).
+# IBS probabilities for node pairs (for DB process) (see Eq.10 in the main text, or Eq.SI.46 in the main text).
 #
 # Input:
 # - w: adjacency matrices of the static counterparts, N × N × L array.
