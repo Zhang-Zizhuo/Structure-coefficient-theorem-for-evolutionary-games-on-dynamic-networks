@@ -36,8 +36,8 @@ axis([-1 3 2.3 3.5]);
 
 set(gca, 'FontSize', tick_font_size);
 
-xlabel('Rescaled duration, $t$', 'Interpreter', 'latex', 'FontSize', label_font_size);  % x 轴标签
-ylabel('${\it (b/c)^*}$', 'Interpreter', 'latex', 'FontSize', label_font_size);  % y 轴标签
+xlabel('Rescaled duration, $t$', 'Interpreter', 'latex', 'FontSize', label_font_size);  
+ylabel('${\it (b/c)^*}$', 'Interpreter', 'latex', 'FontSize', label_font_size);  
 
 set(gcf, 'Color', 'w');  
 set(gca, 'Color', 'w');  
