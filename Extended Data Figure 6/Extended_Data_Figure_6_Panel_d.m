@@ -37,8 +37,8 @@ tick_font_size=18;
 set(gca, 'FontSize', tick_font_size);
 
 label_font_size=21;
-xlabel('Periphery size, $N_p$', 'Interpreter', 'latex', 'FontSize', label_font_size);  % x 轴标签
-ylabel('Fairness, ${\bar{p}}$', 'Interpreter', 'latex', 'FontSize', label_font_size);  % y 轴标签
+xlabel('Periphery size, $N_p$', 'Interpreter', 'latex', 'FontSize', label_font_size);  
+ylabel('Fairness, ${\bar{p}}$', 'Interpreter', 'latex', 'FontSize', label_font_size);  
 
 set(gcf, 'Color', 'w');  
 set(gca, 'Color', 'w');  
